@@ -1,0 +1,39 @@
+# 2025年3月25日(火)
+
+# やったこと📝
+- [プラクティス JavaScript中級1 \| FBC](https://bootcamp.fjord.jp/practices/277)
+- [プラクティス カレンダーのプログラム\(JavaScript\) \| FBC](https://bootcamp.fjord.jp/practices/196)
+# わかったこと💡
+
+昨日の日報の続きです。
+[\#62 JavaScript初級3終了 \| FBC](https://bootcamp.fjord.jp/reports/110074)
+
+## FalsyとNullish valueについて
+- false
+- 0（数値のゼロ）
+- \-0（マイナスゼロ）
+- ""（空文字）
+- null
+- undefined
+- NaN\(Not a Number\)
+- document\.all
+- NaN（Not\-a\-Number）
+- Falsy \(偽値\) 
+-  MDN Web Docs 用語集: ウェブ関連用語の定義 \| MDN
+
+### Nullish value
+> JavaScript では Nullish value は null または undefined のいずれかの値です。Nullish values は常に falsy です。
+
+- null
+- undefined
+
+Falsy valueの中にNullish valueが含まれているため、0や空文字などはfalseにならないのが`??演算子`になる。
+
+### 学んだこと
+カレンダーで0年は存在しないので、0をfalseとして扱い、デフォルト値を使用するのは問題ないのでは？と思ってなかなか回答に進めなかったのですが、0がfalseであることで結構色々な問題が起こることを学びました…。
+
+# 次にやること✅
+- [プラクティス JavaScript中級1 \| FBC](https://bootcamp.fjord.jp/practices/277)
+
+# 学習時間
+- 2時間15分(合計: 185時間15分)
